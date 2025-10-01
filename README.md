@@ -81,7 +81,7 @@ Check: http://localhost:8000/health
 bash
 Copiar código
 cd frontend
-py -3.13 -m venv .venv   # or use 3.10 if you prefer
+py -3.10 -m venv .venv   # or use 3.10 if you prefer
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
