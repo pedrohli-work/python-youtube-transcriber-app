@@ -29,7 +29,7 @@ yaml
 Copiar código
 
 - **Backend**: Python 3.10 (FastAPI + Uvicorn)  
-- **Frontend**: Python 3.13 (Streamlit)  
+- **Frontend**: Python 3.10 (Streamlit)  
 - **FFmpeg**: required for audio extraction  
 - **Optional**: Argos Translate for offline translations  
 
@@ -37,7 +37,7 @@ Copiar código
 
 ## ⚙️ Requirements
 - Python **3.10+** (backend recommended at 3.10 for Torch stability)
-- Python **3.10+ or 3.13** (frontend)
+- Python **3.10+ (frontend)
 - [FFmpeg](https://ffmpeg.org/download.html) installed and in PATH
 - Virtual environments (`venv`) or Docker
 
