@@ -1,0 +1,34 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.backend
+    container_name: yt-backend
+    ports: ["8000:8000"]
+    environment:
+      - MAX_MINUTES=60
+      - MODEL_SIZE=small
+      - STORE_DEFAULT=false
+      - TTL_DAYS=3
+      - CACHE_TTL_HOURS=72
+      - PREFER_CAPTIONS_DEFAULT=true
+      - RATE_LIMIT_RPM=30
+      - TRANSCRIBER_DB=/data/transcripts.db
+    volumes:
+      - backend_data:/data
+      - model_cache:/root/.cache
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend
+    container_name: yt-frontend
+    ports: ["8501:8501"]
+    environment:
+      - API_URL=http://backend:8000
+    depends_on: [backend]
+
+volumes:
+  backend_data:
+  model_cache:

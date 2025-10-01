@@ -1,0 +1,20 @@
+FROM python:3.11-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY backend /app/backend
+RUN pip install --no-cache-dir -r backend/requirements.txt
+
+VOLUME ["/data", "/root/.cache"]
+ENV TRANSCRIBER_DB=/data/transcripts.db
+ENV MAX_MINUTES=60
+ENV MODEL_SIZE=small
+ENV STORE_DEFAULT=false
+ENV TTL_DAYS=3
+ENV CACHE_TTL_HOURS=72
+ENV PREFER_CAPTIONS_DEFAULT=true
+ENV RATE_LIMIT_RPM=30
+
+EXPOSE 8000
+CMD ["uvicorn", "backend.app:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -1,0 +1,65 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+backend/.venv/
+frontend/.venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs ---
+*.log
+logs/
+*.out
+*.err
+
+# --- Streamlit ---
+frontend/.streamlit/
+.streamlit/
+
+# --- SQLite / DB ---
+*.db
+*.sqlite3
+data/
+backend/data/
+backend/scripts/metrics_test.db
+
+# --- Temporary files ---
+*.tmp
+*.temp
+tmp/
+temp/
+__temp__/
+
+# --- ffmpeg / yt-dlp ---
+*.webm
+*.mp4
+*.mkv
+*.mp3
+*.wav
+
+# --- Docker ---
+docker/*.pid
+docker/*.log
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini

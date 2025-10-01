@@ -1,0 +1,20 @@
+{
+  "title": "Transcritor de YouTube",
+  "url_placeholder": "https://youtu.be/...",
+  "output_language": "Idioma de saída",
+  "original": "Original",
+  "ptbr": "Português (Brasil)",
+  "english": "Inglês",
+  "max_duration": "Duração máxima (min)",
+  "store_sqlite": "Salvar no SQLite (opcional)",
+  "prefer_captions": "Preferir legendas do vídeo quando disponíveis",
+  "export_formats": "Formatos de exportação",
+  "transcribe": "Transcrever",
+  "reset": "Limpar",
+  "processing": "Processando...",
+  "done": "Concluído!",
+  "detected_title": "Detectado: `{lang}` | Título: {title}",
+  "preview": "Prévia (.txt)",
+  "download_txt": "Baixar .txt",
+  "saved_with_id": "Salvo com ID: {id}"
+}

@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+yt-dlp
+faster-whisper
+torch
+sentencepiece
+argostranslate
+pydantic
+python-dotenv

@@ -1,0 +1,20 @@
+{
+  "title": "YouTube Transcriber",
+  "url_placeholder": "https://youtu.be/...",
+  "output_language": "Output language",
+  "original": "Original",
+  "ptbr": "Português (Brasil)",
+  "english": "English",
+  "max_duration": "Max duration (min)",
+  "store_sqlite": "Store in SQLite (optional)",
+  "prefer_captions": "Prefer video captions if available",
+  "export_formats": "Export formats",
+  "transcribe": "Transcribe",
+  "reset": "Reset",
+  "processing": "Processing...",
+  "done": "Done!",
+  "detected_title": "Detected: `{lang}` | Title: {title}",
+  "preview": "Preview (.txt)",
+  "download_txt": "Download .txt",
+  "saved_with_id": "Saved with ID: {id}"
+}
