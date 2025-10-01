@@ -78,8 +78,6 @@ uvicorn backend.app:app --host 0.0.0.0 --port 8000 --reload
 Check: http://localhost:8000/health
 
 2) Frontend (Streamlit)
-bash
-Copiar código
 cd frontend
 py -3.10 -m venv .venv   # or use 3.10 if you prefer
 .\.venv\Scripts\Activate.ps1
@@ -89,8 +87,6 @@ streamlit run app.py
 Access: http://localhost:8501
 
 🐳 Running with Docker
-bash
-Copiar código
 cd docker
 docker compose build
 docker compose up
@@ -101,8 +97,6 @@ API health: http://localhost:8000/health
 🧪 Testing
 To validate metrics and DB logging:
 
-bash
-Copiar código
 python -m backend.scripts.smoke_metrics
 Expected output: success + error metrics recorded.
 
@@ -129,6 +123,3 @@ PRs and suggestions are welcome. Please open an issue for bug reports or feature
 
 📜 License
 MIT License © 2025 Pedro H. Lins
-
-yaml
-Copiar código
