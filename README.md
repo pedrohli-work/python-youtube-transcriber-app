@@ -61,9 +61,6 @@ I wanted a **modular, lightweight and educational project** to dive deeper into 
 
 💡 Next steps: improving UI/UX, handling longer videos, and deploying to the cloud.
 
-Check out the repo here: [GitHub link] 🔗  
-Feedback and ideas are super welcome!
-
 ## 🚀 Running Locally
 
 ### 1) Backend (FastAPI)
