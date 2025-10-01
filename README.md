@@ -43,6 +43,27 @@ Copiar código
 
 ---
 
+This app makes it easy to:
+🔗 Paste a YouTube link  
+🎙️ Transcribe the video (any language, up to 60 minutes)  
+🌍 Translate to Brazilian Portuguese or English  
+📄 Download clean transcripts as TXT, SRT, or VTT  
+
+Tech stack:
+⚡ FastAPI (backend)  
+⚡ Streamlit (frontend dashboard)  
+⚡ faster-whisper (speech-to-text)  
+⚡ yt-dlp + FFmpeg (audio extraction)  
+🐳 Docker-ready  
+
+👉 Why I built it:  
+I wanted a **modular, lightweight and educational project** to dive deeper into **FastAPI, Streamlit, and Whisper-based transcription pipelines** — while keeping it practical and user-friendly.  
+
+💡 Next steps: improving UI/UX, handling longer videos, and deploying to the cloud.
+
+Check out the repo here: [GitHub link] 🔗  
+Feedback and ideas are super welcome!
+
 ## 🚀 Running Locally
 
 ### 1) Backend (FastAPI)
@@ -114,32 +135,3 @@ MIT License © 2025 Pedro H. Lins
 
 yaml
 Copiar código
-
----
-
-# 📢 LinkedIn Announcement (English)
-
-```text
-🚀 Excited to share a new side project I’ve been working on:  
-**YouTube Transcriber App** 🎬✨
-
-This app makes it easy to:
-🔗 Paste a YouTube link  
-🎙️ Transcribe the video (any language, up to 60 minutes)  
-🌍 Translate to Brazilian Portuguese or English  
-📄 Download clean transcripts as TXT, SRT, or VTT  
-
-Tech stack:
-⚡ FastAPI (backend)  
-⚡ Streamlit (frontend dashboard)  
-⚡ faster-whisper (speech-to-text)  
-⚡ yt-dlp + FFmpeg (audio extraction)  
-🐳 Docker-ready  
-
-👉 Why I built it:  
-I wanted a **modular, lightweight and educational project** to dive deeper into **FastAPI, Streamlit, and Whisper-based transcription pipelines** — while keeping it practical and user-friendly.  
-
-💡 Next steps: improving UI/UX, handling longer videos, and deploying to the cloud.
-
-Check out the repo here: [GitHub link] 🔗  
-Feedback and ideas are super welcome!
