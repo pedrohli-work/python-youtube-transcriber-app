@@ -25,9 +25,6 @@ backend/utils/ → Helpers (config, temp files, formatters)
 backend/db/ → SQLite (optional, for transcripts)
 docker/ → Dockerfiles + docker-compose
 
-yaml
-Copiar código
-
 - **Backend**: Python 3.10 (FastAPI + Uvicorn)  
 - **Frontend**: Python 3.10 (Streamlit)  
 - **FFmpeg**: required for audio extraction  
