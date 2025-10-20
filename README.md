@@ -83,14 +83,6 @@ pip install -r requirements.txt
 streamlit run app.py
 Access: http://localhost:8501
 
-🐳 Running with Docker
-cd docker
-docker compose build
-docker compose up
-Frontend: http://localhost:8501
-
-API health: http://localhost:8000/health
-
 🧪 Testing
 To validate metrics and DB logging:
 
